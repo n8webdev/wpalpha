@@ -91,3 +91,9 @@
 * Select Add Media then Create Gallery;
 * Select the images;
 * Adjust Gallery settings.
+
+## Category Navigation (taxonomy)
+* Go to customize/widgets;
+* Add a widget => category;
+* Empty categories won't be shown.
+
