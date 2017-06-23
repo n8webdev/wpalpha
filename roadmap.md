@@ -27,3 +27,32 @@
     ** Email Address Encoder;
     ** Google Analyticator;
     ** WP Google Maps
+* Test Email Address Encoder by typing an email on the page.
+
+## Editing
+* Edit text on main page on pages/Sample Page (edit);
+* Insert an image;
+* Go to Appearance/Customize and do some editing using the theme's tools;
+
+## Pages
+* Create the Following pages:
+    ** About;
+    ** Contact Us;
+    ** Portfolio.
+* Create a menu (under appearance);
+
+## Email Form
+* Click on Contacts;
+* Edit contact form 1 and save it;
+* Copy shortcode and paste it into Contact Us page
+
+## Maps
+* Click on Maps;
+* Create one, copy the shortcode and paste it into wherever it's cool;
+* note: WP Google Map Plugin is a better plugin.
+
+## Analytics
+* Sign in to analytics;
+* Create new project and get tracking ID;
+* Sign in from plugin and activate options;
+* note: Google Analytics by MonsterInsigths is an option.
