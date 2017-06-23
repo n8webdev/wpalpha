@@ -97,3 +97,9 @@
 * Add a widget => category;
 * Empty categories won't be shown.
 
+## Tag Navigation
+* Go to customize/tags;
+* Create or Edit a tag;
+* Go to any post and add one or more tags to it (right column);
+* Customize/widgets will allow the 'Tag Cloud' to be added.
+
