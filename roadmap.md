@@ -85,3 +85,9 @@
 * Go to Appearance/customize;
 * Select 'Featured content', choose a layout and a tag name;
 * Go to each post and add the tag name for the featured content.
+
+## Create a Portfolio
+* Select a page and go to 'Edit';
+* Select Add Media then Create Gallery;
+* Select the images;
+* Adjust Gallery settings.
