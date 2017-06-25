@@ -58,48 +58,104 @@
     * note: Google Analytics by MonsterInsigths is an option.
 
 # Blog Style
-## Modify Home Page and Import Sample
-* Download Theme Unit Test xml;
-* Copy file to prject root folder;
-* On the admin panel, click on Tools/Import;
-* Import WordPress and run it;
-* Upload and Import theme-unit-test.xml;
-* Check Download and import file attachments box and hit submit.
+    ## Modify Home Page and Import Sample
+    * Download Theme Unit Test xml;
+    * Copy file to prject root folder;
+    * On the admin panel, click on Tools/Import;
+    * Import WordPress and run it;
+    * Upload and Import theme-unit-test.xml;
+    * Check Download and import file attachments box and hit submit.
 
-## Display most recent posts on the front page
-* Go to Settings/Reading;
-* Set Front page displays to latest posts and adjust the amount of posts;
-* In case any post is too long, add the 'readmore' to the post itself by editing it.
+    ## Display most recent posts on the front page
+    * Go to Settings/Reading;
+    * Set Front page displays to latest posts and adjust the amount of posts;
+    * In case any post is too long, add the 'readmore' to the post itself by editing it.
 
-## Changing the Theme
-* Go to Appearance/Themes and select a new one;
-* Create 3 new Posts and add a feature image (right column) to each;
-* Create a new Category (Photographs);
-* Using 'Quick Edit' categorize these new posts;
-* Unable 'sticky' for sticy post;
-* Add lorem ipsum text to the posts;
-* Take care of featured image's ratio if needed;
-* Go to media, choose an image and edit it accordingly;
+    ## Changing the Theme
+    * Go to Appearance/Themes and select a new one;
+    * Create 3 new Posts and add a feature image (right column) to each;
+    * Create a new Category (Photographs);
+    * Using 'Quick Edit' categorize these new posts;
+    * Unable 'sticky' for sticy post;
+    * Add lorem ipsum text to the posts;
+    * Take care of featured image's ratio if needed;
+    * Go to media, choose an image and edit it accordingly;
 
-## Customizing the theme's appearance
-* Go to Appearance/customize;
-* Select 'Featured content', choose a layout and a tag name;
-* Go to each post and add the tag name for the featured content.
+    ## Customizing the theme's appearance
+    * Go to Appearance/customize;
+    * Select 'Featured content', choose a layout and a tag name;
+    * Go to each post and add the tag name for the featured content.
 
-## Create a Portfolio
-* Select a page and go to 'Edit';
-* Select Add Media then Create Gallery;
-* Select the images;
-* Adjust Gallery settings.
+    ## Create a Portfolio
+    * Select a page and go to 'Edit';
+    * Select Add Media then Create Gallery;
+    * Select the images;
+    * Adjust Gallery settings.
 
-## Category Navigation (taxonomy)
-* Go to customize/widgets;
-* Add a widget => category;
-* Empty categories won't be shown.
+    ## Category Navigation (taxonomy)
+    * Go to customize/widgets;
+    * Add a widget => category;
+    * Empty categories won't be shown.
 
-## Tag Navigation
-* Go to customize/tags;
-* Create or Edit a tag;
-* Go to any post and add one or more tags to it (right column);
-* Customize/widgets will allow the 'Tag Cloud' to be added.
+    ## Tag Navigation
+    * Go to customize/tags;
+    * Create or Edit a tag;
+    * Go to any post and add one or more tags to it (right column);
+    * Customize/widgets will allow the 'Tag Cloud' to be added.
 
+# Site Migration
+    ## Plugin Oriented
+    ### Backup
+    * Install All-In-One WP Migration plugin;
+    * Export Project using the plugin;
+    * Save the backup somewhere.
+
+    ### New Project
+    * Create a new project following standard step-by-step guide;
+    * Initialize project;
+    * Install All-In-One WP Migration plugin;
+    * Import backup;
+    * Save permalink settings twice;
+    * Test website.
+
+    ## Manual Approach
+    ### New Project
+    * Create a new folder and keep it empty;
+    * Copy all the files from the project to be migrated directly to the newly created folder for New Project;
+
+    ### Database
+    * Create a new database;
+    * Export data from original project;
+    * Save it somewhere;
+    * Import the .sql file to New Project's database;
+    * Edit wp-options by changing the site url;
+    * Edit wp-config to connect to the New Project's database;
+
+    ### Check Database
+    * Access the database and go to search;
+    * Look for the url of the old project => %<old-project> (the exact phrase in all the tables);
+    * Edit manually in case of just a few matches;
+    * IF there are a lot of matches install and use 'Search and replace' plugin;
+
+    ## Staging Development
+    ### Hosting Services
+    * Create a new installation exactly alike the project to be hosted;
+    * Upload the backup and use the hosting server's staging feature to do it.
+
+    ### Local Staging
+    * Create a Local New Project;
+    * Export the project's backup;
+    * Extract it to the just created local folder;
+    * Do all the editing needed, then upload the project to the live server.
+
+    ## Changing theme and updating live site
+    ### Hands-on
+    * Export live site backup;
+    * Download new theme (wordpress.com/themes/affinity);
+    * Create a new project and upload the theme (.zip);
+    * Increase upload capacity if needed:
+        ** Open HTACCESS file;
+        ** Add the line: php_value upload_max_filesize 8M.
+    * Change whatever it is then exort the project's file;
+    * Upload the new project to the live environment.
+    * note: this will overwrite the live database. Therefore, this is NOT the best approach for blog-like pages.
