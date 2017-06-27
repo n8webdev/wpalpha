@@ -164,7 +164,7 @@
 # Child Themes
 ## Manual Approach
 * Select the project on which you'll work;
-* Create a folder for the child theme under the 'themes' directory named as <parent-theme>-child;
+* Create a folder for the child theme under the 'themes' directory named as \<parent-theme\>-child;
 * Under the new folder, create a style.css file;
 * Go to codex.wordpress.org/Child_Themes and copy the commented css code;
 * Paste it to style.css and edit the Theme Name (<parent-theme> child) and Template (<parent-theme>);
