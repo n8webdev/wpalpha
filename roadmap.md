@@ -152,10 +152,27 @@
     ### Hands-on
     * Export live site backup;
     * Download new theme (wordpress.com/themes/affinity);
-    * Create a new project and upload the theme (.zip);
+    * Create a new project, upload the backup and make it available online;
+    * Upload the theme (.zip);
     * Increase upload capacity if needed:
         ** Open HTACCESS file;
-        ** Add the line: php_value upload_max_filesize 8M.
-    * Change whatever it is then exort the project's file;
+        ** Add the line: php_value upload_max_filesize 8M;
+    * Change whatever it is then export the project's file;
     * Upload the new project to the live environment.
     * note: this will overwrite the live database. Therefore, this is NOT the best approach for blog-like pages.
+
+# Child Themes
+## Manual Approach
+* Select the project on which you'll work;
+* Create a folder for the child theme under the 'themes' directory named as <parent-theme>-child;
+* Under the new folder, create a style.css file;
+* Go to codex.wordpress.org/Child_Themes and copy the commented css code;
+* Paste it to style.css and edit the Theme Name (<parent-theme> child) and Template (<parent-theme>);
+* Create a functions.php file;
+* Go to codex.wordpress.org/Child_Themes and copy the commented PHP code;
+* Paste it to functions.php;
+* Refresh the page, activate the child theme and check if it works (it should);
+* Apply some css changes to the child so as to check if style.css works.
+
+## Plugin Approach
+* 
