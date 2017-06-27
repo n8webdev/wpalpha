@@ -184,3 +184,16 @@
 * Click on Preview;
 * Edit style.css locally;
 * Test it.
+
+## Admin Dashboard
+* Create a backup of the current activated theme;
+* Look for a snippet to do what you want;
+* For removing the 'Users' menu from dashboard add the following code to the 'functions.php' file of your CHILD theme:
+```
+    <?php
+        function remove_menus(){
+            remove_menu_page( 'users.php' );                  //Users
+        }
+        add_action( 'admin_menu', 'remove_menus' );
+    ?>
+```
