@@ -197,3 +197,63 @@
         add_action( 'admin_menu', 'remove_menus' );
     ?>
 ```
+
+# Using a Framework (Genesis in this case)
+```
+    <p>note: The available themes are already child themes and can be updated following along with the parent (framework's) theme.</p>
+```
+## Set-up
+* Go to student sandbox and login;
+* Activate Parallax Pro Theme;
+
+## Editing
+* Open the customizer;
+* Change logo, featured pictures and what else you want to;
+
+### Images
+* Open a page which contain one or more images;
+* Click on the picture and then on the edit icon;
+* Under 'Advanced', remove or add the classes pull-left/right.
+
+### Footer
+* Go to Plugins and activate Genesis Simple Edits;
+* Go to Genesis/Simple edits;
+* Edit accordingly
+
+### Extra
+* Open up the Customizer;
+* Edit:
+** Page Layout;
+** Content Archives (Display Post Excerpts add the readmore link automatically);
+** Whatever other widget or page content desired.
+
+## Custom change without editing the css
+* Activate the Simple Custom CSS plugin;
+* Go to Appearance/ Custom CSS and edit accordingly.
+
+# Editing the functions.php file safely
+```
+    <p>note: Use WPCLIPS plugin for the Genesis-like frameworks' themes.</p>
+```
+
+## Select the Project
+* Open the 'live-site' project locally;
+* Install the 'Code Snippets' plugin;
+* Go to Snipptes/ Add new;
+
+## Change the WordPress Admin Panel Login Logo
+### Image
+* Name it as 'Login Logo';
+* Go to codex.wordpress.org/Customizing_the_Login_Form for a reference;
+* Copy the PHP snippet;
+* Paste it to the 'Login Logo' snippet;
+* Edit the 'background-image' url under the css code so as to contain the name of your new logo file;
+* Get an 80 x 80px image and save it to a folder called 'images' under the CURRENT THEME'S folder;
+* Save the snippet and activate it;
+* Give it a shot, it should work!
+
+### Redirect
+* Go to the reference page and copy the snippet for my_login_logo_url;
+* Paste it to the 'Login Logo' snippet and edit the website's title;
+* Change the scope of the snippet to 'Run everywhere'.
+* Test it!
