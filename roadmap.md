@@ -223,9 +223,9 @@
 ### Extra
 * Open up the Customizer;
 * Edit:
-** Page Layout;
-** Content Archives (Display Post Excerpts add the readmore link automatically);
-** Whatever other widget or page content desired.
+    ** Page Layout;
+    ** Content Archives (Display Post Excerpts add the readmore link automatically);
+    ** Whatever other widget or page content desired.
 
 ## Custom change without editing the css
 * Activate the Simple Custom CSS plugin;
@@ -257,3 +257,26 @@
 * Paste it to the 'Login Logo' snippet and edit the website's title;
 * Change the scope of the snippet to 'Run everywhere'.
 * Test it!
+
+# Plugins
+## General view
+* Check out premium.wpmudev.org > Plugins and browse through the many options available;
+* Note that most of them are installed on your sandbox;
+* Check the Ultimate Branding plugin. It allows the dev to remove WP Branding from the whole app and replace it with his or the client's, as well as eliminating unecessary menu items;
+* Check out WPMU DEV Dashboard for a personilized version of the Admin Dashboard;
+* Defender, Hummingbird, Popup Pro 2, Membership 2 Pro and Snapshot Pro are also very good options. 
+
+## Envato Market
+### Payed Features
+* Access envato.com and go to the Codecanyon/ wordpress page;
+* Search for 'popup' and do a little tour with LayeredPopups;
+* Access themeforest/ wordpress and browse through thousands of different themes;
+* Create an account and/or browse through the pages to get Free Files and hollidays discounts;
+
+### Free Features
+* Evaluate the Following criterias:
+    ** Amount of Active Installations;
+    ** Compatibility with current version of WP;
+    ** Users ratings;
+    ** Support Page comments.
+
