@@ -23,10 +23,10 @@
 ## Plugins
 * Always pay attention to number of installations, review, last update and compatibility with WP version;
 * Install and activate:
-    ** Contact form 7;
-    ** Email Address Encoder;
-    ** Google Analyticator;
-    ** WP Google Maps
+** Contact form 7;
+** Email Address Encoder;
+** Google Analyticator;
+** WP Google Maps
 * Test Email Address Encoder by typing an email on the page.
 
 ## Editing
@@ -36,9 +36,9 @@
 
 ## Pages
 * Create the Following pages:
-    ** About;
-    ** Contact Us;
-    ** Portfolio.
+** About;
+** Contact Us;
+** Portfolio.
 * Create a menu (under appearance);
 
 ## Email Form
@@ -155,8 +155,8 @@
 * Create a new project, upload the backup and make it available online;
 * Upload the theme (.zip);
 * Increase upload capacity if needed:
-    ** Open HTACCESS file;
-    ** Add the line: php_value upload_max_filesize 8M;
+** Open HTACCESS file;
+** Add the line: php_value upload_max_filesize 8M;
 * Change whatever it is then export the project's file;
 * Upload the new project to the live environment.
 * note: this will overwrite the live database. Therefore, this is NOT the best approach for blog-like pages.
@@ -223,9 +223,9 @@
 ### Extra
 * Open up the Customizer;
 * Edit:
-    ** Page Layout;
-    ** Content Archives (Display Post Excerpts add the readmore link automatically);
-    ** Whatever other widget or page content desired.
+** Page Layout;
+** Content Archives (Display Post Excerpts add the readmore link automatically);
+** Whatever other widget or page content desired.
 
 ## Custom change without editing the css
 * Activate the Simple Custom CSS plugin;
@@ -276,10 +276,10 @@
 
 ### Free Features
 * Evaluate the Following criterias:
-    ** Amount of Active Installations;
-    ** Compatibility with current version of WP;
-    ** Users ratings;
-    ** Support Page comments.
+** Amount of Active Installations;
+** Compatibility with current version of WP;
+** Users ratings;
+** Support Page comments.
 
 ## Performance and Speed Test
 * Install P3 plugin;
