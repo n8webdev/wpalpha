@@ -243,6 +243,7 @@
 
 ## Change the WordPress Admin Panel Login Logo
 ### Image
+* Create new Snippet;
 * Name it as 'Login Logo';
 * Go to codex.wordpress.org/Customizing_the_Login_Form for a reference;
 * Copy the PHP snippet;
@@ -280,3 +281,15 @@
     ** Users ratings;
     ** Support Page comments.
 
+## Performance and Speed Test
+* Install P3 plugin;
+* Run a scan using the plugin;
+* View Results;
+* Deactivate plugings that don't need to be active for the page to load (such as All-in-one WP);
+* Run the scan again;
+* Install Responsive Lightbox by dFactory plugin.
+* Deactivate Child Theme Configurator;
+* Run the scan;
+* Install WP Tiles;
+* Setup a gallery and activate wp-tiles on it;
+* Run the scan again.
