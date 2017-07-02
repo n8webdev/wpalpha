@@ -359,3 +359,29 @@
 * Open the 'text' editing tab;
 * Paste the snippet;
 * Change the Layout so it excludes the sidebar.
+
+## Navigation, Header and Footer
+* Go to appearance/ menus and create a new one;
+* Name it as Executive menu;
+* Add to it the pages:
+    * Home;
+    * Development;
+    * Design;
+    * Telecommunications;
+    * Contact us;
+* Go to appearance/ widgets;
+* Set the Custom Menu in the Header Right widget area to Executive menu;
+* Go to customize;
+* Set a new image to the Header Image widget area;
+* Activate the Genesis Simple Edits plugin;
+* Go to Genesis/ Simple edits;
+* Edit it accordingly.
+
+## Custom Post Types and Taxonomies
+### Portfolio Archive
+* Go to Portfolio/ archive settings;
+* Add a header and a description;
+* Check the new look of the page.
+* note: creating custom post types inside of a theme is a risk since they will be lost in case of an update. The best practice is to use a plugin to do such thing. Exemples are:
+    * Custompress (premium plugin by wpmudev);
+    * Custom post type UI (free by webdev studios)
