@@ -346,3 +346,16 @@
 * Add 3 widgets different from the Home - Top widget area;
 ### Footer
 * Configure such area to look just like the demo page (https://demo.studiopress.com/executive/).
+
+## Special CSS classes
+* Executive Pro Gists...
+* Go to GitHub Gists and look for studiopress/call-to-action-banner.html;
+* Copy the snippet;
+* Paste it into the Contact Us widget and edit it accordingly;
+* Go to the 'Column Classes' page and view its source code;
+* Copy the code for a 'third of a page' column;
+* Create a new page;
+* Name it as Three columns;
+* Open the 'text' editing tab;
+* Paste the snippet;
+* Change the Layout so it excludes the sidebar.
