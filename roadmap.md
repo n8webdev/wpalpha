@@ -293,3 +293,10 @@
 * Install WP Tiles;
 * Setup a gallery and activate wp-tiles on it;
 * Run the scan again.
+
+## Soliloquy
+* Install the Soliloquy lite plugin;
+* Create new slider;
+* Select images;
+* Copy one of the shortcodes and paste it into the page you want the slider to be shown;
+* Edit settings accordingly.
