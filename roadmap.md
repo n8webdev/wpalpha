@@ -404,3 +404,11 @@
 * Create a new page with the Blog template;
 * Add it to the menu;
 * Configure it to show featured images and entry excerpts on Genesis/ Theme settings.
+
+## Contact form and customisation
+* Activate contact form 7 and contact form 7 popup message plugins;
+* Go to contact/ contact form 1;
+* Add a phone number field to the form and make it rquired;
+* Go to the tab Mail and add this new info to the email template;
+* Go to Popup Message Addons and select one template;
+* Get the shortcode for the form and past it to the contact page.
