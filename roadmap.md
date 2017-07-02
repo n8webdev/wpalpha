@@ -412,3 +412,10 @@
 * Go to the tab Mail and add this new info to the email template;
 * Go to Popup Message Addons and select one template;
 * Get the shortcode for the form and past it to the contact page.
+
+# Cafe Pro Theme
+## Initial Setup
+* Create a new site and name it as Cafe Pro;
+* Activate the Cafe Pro theme;
+* Import specific data;
+* Add some content to the 'Before content' widget area.
