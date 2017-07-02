@@ -300,3 +300,49 @@
 * Select images;
 * Copy one of the shortcodes and paste it into the page you want the slider to be shown;
 * Edit settings accordingly.
+
+# Corporate Style WebSite
+## Setup
+* Open the students sandbox and navigate to My Sites;
+* Add new;
+* Name the site including the word 'executive' for easily finding it later;
+* Login to the new website;
+* Download demo data;
+* Activate the theme;
+* Select tools/import;
+* Import executive-pro.xml file;
+* Setup your user as author of the content to be created and check the 'Download and Import file attachements' box.
+
+## Customisation
+* Remove the widgets from Home page (slider, top and footer);
+* Activate Regenerate Thumbnails plugin;
+* Select tools/ Regen. thumbnails and execute the plugin;
+* Activate Genesis Responsive Slider;
+* Go to Customize;
+### Home - Slider
+* Add a Genesis Responsive Slider widget to Home Slider widget area;
+* Back to the dashboard, go to Genesis/ slider settings;
+* Configure it to show Posts from all taxonomies and terms;
+* Delete the Hello, world! post;
+* Check if the slider is working properly;
+### Home - Top
+* Open up the Home - Top widget area;
+* Add the Genesis Featured Pages widgets to it;
+* Setup the widget as follows:
+    * Title: Development;
+    * Page: Development;
+    * Show featured image: 300px x 100px;
+    * Show page title: false;
+    * Shwo content: true;
+    * Character limit: 150;
+    * More text: 'Read more >>'.
+* Save and Publish;
+* Add two pages more.
+### Home - Call to action
+* Add a Text Widget to the Call to Action widget area;
+* Fill up title and content areas' text accordingly;
+### Home - middle
+* Add the Genesis Featured Pages widgets to it;
+* Add 3 widgets different from the Home - Top widget area;
+### Footer
+* Configure such area to look just like the demo page (https://demo.studiopress.com/executive/).
