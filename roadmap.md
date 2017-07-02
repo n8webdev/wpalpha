@@ -385,3 +385,22 @@
 * note: creating custom post types inside of a theme is a risk since they will be lost in case of an update. The best practice is to use a plugin to do such thing. Exemples are:
     * Custompress (premium plugin by wpmudev);
     * Custom post type UI (free by webdev studios)
+
+## Featured Post Widgets and Blog Archive
+* Go to the sticky post and uncheck the sticky option under the visibility property (top-right box);
+* Get 6 1600px wide images from the live-site dir (wp-content/uploads/2011/07) and save them to another folder;
+* Get the Slider images from the demo site and do the same;
+* Upload them to the media gallery;
+* Set the images appropriately to the posts/images as featured images.
+* Change the Responsive Slider to show pages included by ID (get the ID of the wished pages);
+* Change the Home - Top widget area to display posts as follows:
+    * All categories;
+    * 1 post to show;
+    * Offset 1 related to the current featured post from the second widget on;
+    * Show Featured image;
+    * Show post title;
+    * Limit content to 130 chars.
+* Do the same to the Home - middle area;
+* Create a new page with the Blog template;
+* Add it to the menu;
+* Configure it to show featured images and entry excerpts on Genesis/ Theme settings.
