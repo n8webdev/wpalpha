@@ -486,3 +486,14 @@
     * Lens:;
     * Date taken: (with Date Picker).
 * Save it.
+
+## Implement the new custom type
+* Add new Photograph;
+* Create 4 posts with tags and custom fields;
+* Open the /photographs page;
+* Go to Genesis/ Theme settings;
+* Content Archives must display Excerpts, featured image 300x300;
+* Change the medium thumbnail size to 600x600 and Regenerate with the plugin;
+* Go to CustomPress/ settings;
+* On "Archive" pages, display these post types: photographs;
+* Click on a tag (antique), there should be at least one post there.
