@@ -419,3 +419,70 @@
 * Activate the Cafe Pro theme;
 * Import specific data;
 * Add some content to the 'Before content' widget area.
+
+## Menu configuration
+* Go to appearance/ menus;
+* Select the 'Primary Navigation' menu;
+* Edit the path to the widget areas (change it from /cafe/... to /...) for About, Menu, Mission, Mantra and Location;
+* Set its location to Primary Navigation Menu;
+* Set the Footer Navigation Menu to Secondary Navigation (Menus/ manage locations).
+
+## Pages Layout
+* Go to Genesis/ Theme settings;
+* Change the Layout to full-width.
+
+## Customize Home Page
+* Select the widget area Front Page 2;
+* Remove the current widget;
+* Add 5 Genesis Featured Pages widgets with the following settings:
+    * Show page content limited to 150 chars;
+    * No image shown;
+    * Don't show page title;
+    * Set titles manually;
+    * Add the Read More >> text.
+* In case you want to change the size of the featured image go to Settings/ media and set it to 300x100;
+* Get Images from wptavern.com (https://wptavern.com/13-sources-for-free-public-domain-and-cc0-licensed-images);
+* Regenerate Thumbnails plugin activated and ran;
+* Refresh the page and see the result.
+* Go to customize/ colors;
+* Change the accent and get the hexa code;
+* Go to Footer 1/ simple social icons/ and paste it to hover color.
+* Add recent posts to footer 2;
+* Add a text widget to footer 3;
+
+## Custom Post Types with Custompress
+* Activate CustomPress plugin;
+* Go to the CustomPress/ Photograph;
+* Edit the supports to include Title, Editor, Thumbnail and Excerpt;
+* Support Tags only;
+* Map Meta Capabilities to true;
+* Labels:
+    * Photographs;
+    * Photograph;
+    * Add new;
+    * Add new Photograph;
+    * Edit Photograph;
+    * New Photograph;
+    * View Photograph;
+    * Search Photographs;
+    * No photographs found;
+    * No photographs found in trash;
+    * Parent Photograph;
+    * Photograph information.
+* Menu position 20;
+* Has an archive => true;
+* Custom slug => photographs;
+* EP mask = none;
+* Add post type;
+* Add new Taxonomy;
+* Name it as photo_type;
+* Available for photograph;
+* Labels following the custom post type pattern (last three options must be left blank);
+* Show admin column;
+* Hierarchical to true;
+* Add taxonomy type;
+* Custom Fields to be used in Photograph:
+    * Camera:;
+    * Lens:;
+    * Date taken: (with Date Picker).
+* Save it.
