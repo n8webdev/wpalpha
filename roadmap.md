@@ -497,3 +497,16 @@
 * Go to CustomPress/ settings;
 * On "Archive" pages, display these post types: photographs;
 * Click on a tag (antique), there should be at least one post there.
+
+## Home Page Content and Conditional Widgets
+* Activate Custom Sidebars Pro plugin;
+* Go to Appearance/ widgets;
+* Create new sidebar called Image data;
+* Add a text widget to it (Title: Image Data);
+* Go to Custom Types and copy the shortcode for Custom Fields;
+* Paste it to the new sidebar text widget;
+* Click on sidebar location and set it to as footer 2 with Photograph;
+* Change Background Images;
+* On the Front Page 4, add for text widgets representing the categories created and set up a read more link as well as a clickable image to the category page;
+* Create a new page, add the picture you want and link it to the url of the category page, then change to the Text tab and grab the code.... save the page as a draft;
+* Paste the code inside the widgets in Front Page 4 widget area.
