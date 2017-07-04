@@ -535,3 +535,19 @@
 * Check the result;
 * Go to Appearance/ Menus and check the box 'CSS classes' under the Screen Options tab;
 * Select the Secondary Menu to edit and apply the class 'highlight' to whatever menu item you want to be float-right.
+
+## Author Pro Homepage and Book Widgets
+### Front Page 1
+* Set 1 Featured Page widget here.
+
+## Front Page 2
+* Set 4 Featured Books widget here.
+
+## Front Page 3
+* Set 1 Featured Post widget here.
+
+## Front Page 4
+* Set 3 Text Widgets with reviews/ testimonials here.
+
+## Front Page 5
+* Set 1 Featured Page (about the author) widget here.
