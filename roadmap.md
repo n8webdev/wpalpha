@@ -562,3 +562,7 @@
 * Go to media and change the thumbnails to 200px x 200px and deactivate the Cropping;
 * Regenerate the thumbnails;
 * Set a Featured Book with thumbnail, title and price aligned to center to this widget area;
+
+## Changing Themes and preserving CPT data
+* Activate the Interior Pro Theme;
+* Edit the widgets and page layout so as to match the demo site.
