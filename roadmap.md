@@ -551,3 +551,14 @@
 
 ## Front Page 5
 * Set 1 Featured Page (about the author) widget here.
+
+## Footer
+### Footer 1
+* Go to customiser and get the accent color hexa code;
+* Open the widgets editor and change the social icons settings as follows:
+    * Hover color as the accent;
+    * Size and border radius 90px;
+### Footer 2
+* Go to media and change the thumbnails to 200px x 200px and deactivate the Cropping;
+* Regenerate the thumbnails;
+* Set a Featured Book with thumbnail, title and price aligned to center to this widget area;
