@@ -510,3 +510,28 @@
 * On the Front Page 4, add for text widgets representing the categories created and set up a read more link as well as a clickable image to the category page;
 * Create a new page, add the picture you want and link it to the url of the category page, then change to the Text tab and grab the code.... save the page as a draft;
 * Paste the code inside the widgets in Front Page 4 widget area.
+
+# Author Pro
+## Setup Author Pro Theme and Plugin
+* Create a new site called *author-cpt;
+* Setup the newly created site as the main of your dashboard;
+* Activate the Author Pro Theme;
+* Activate the Author Pro plugin;
+* Import demo content.
+
+## Front-end Display
+* Open up the Customizer;
+* Set 'Header Navigation Menu' as Header Menu and 'Secondary Navigation Menu' as Secondary Menu;
+* Edit Header Menu so as to have only:
+    * Typography;
+    * Sample Page (and sub-menus);
+    * Contact Page;
+    * Buy this theme.
+* Save and Publish;
+* Open the Library and select a book;
+* Type in any featured text and see how it is displayed on the website;
+* Go to Library/ Series;
+* Type in some text to work as Archive Headline and Intro text;
+* Check the result;
+* Go to Appearance/ Menus and check the box 'CSS classes' under the Screen Options tab;
+* Select the Secondary Menu to edit and apply the class 'highlight' to whatever menu item you want to be float-right.
