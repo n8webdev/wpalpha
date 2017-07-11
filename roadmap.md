@@ -566,3 +566,17 @@
 ## Changing Themes and preserving CPT data
 * Activate the Interior Pro Theme;
 * Edit the widgets and page layout so as to match the demo site.
+
+# Email Setup
+## Site Setup
+* Install a fresh WP installation on a live server (under a directory by choice);
+
+## Account Setup
+* Create and validate an account on MailChimp;
+
+## Forms
+* Create an 'Embedded Form' for the a given list;
+* Copy the text;
+* Go to Appearance/ widgets and create a text widget;
+* Paste the code and save it;
+* Optionally, delete the <style> content so that the form inherits the theme' style;
